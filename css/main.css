@@ -700,6 +700,13 @@ d-flex{
 .footer__company-input{
     width: 230px;
     height: 60px;
+    font-size: 22px;
+    padding-left: 10px;
+    margin-right: -1px;
+}
+
+.footer__company-input:focus{
+    outline: none;
 }
 
 .company_btn svg{
