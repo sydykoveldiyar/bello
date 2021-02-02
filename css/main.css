@@ -430,7 +430,7 @@ d-flex{
     font-size: 19px;
     line-height: 30px;
     color: #ACB4BF;
-    padding: 0 155px;
+    padding: 15px 0 63px;
 }
 
 .insurance__info-title{
@@ -443,16 +443,17 @@ d-flex{
 
 .insurance__pay-step{
     position: relative;
-    padding: 73px 0 32px;
+    padding-bottom: 32px;
 }
 
-.insurance__pay-step-title{
-    padding: 27px 0 8px;
+.insurance__pay-step-title {
     color: white;
     font-weight: 600;
     font-size: 22px;
     line-height: 22px;
+    padding-top: 80px;
 }
+
 .insurance__pay-step-desc{
     font-size: 16px;
     line-height: 26px;
@@ -463,26 +464,65 @@ d-flex{
     padding: 0 56px;
 }
 
-.insurance__pay-step-number{
+.insurance__pay-step-dot{
+    position: relative; 
+}
+
+.first-step-dot{
     position: absolute;
-    top: 50px;
+    top: 5px;
+}
+
+.second-step-dot{
+    position: absolute;
+    top: 8px;
     left: 0;
+    right: 10px;
+    margin: auto;
+}
+
+.third-step-dot{
+    position: absolute;
+    top: -7px;
+    
+}
+
+.first-num{
+    position: absolute;
+    top: -10px;
+    left: 0px;
+    right: 0;
+    margin: auto;
+}
+
+.second-num{
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    right: 0;
+    margin: auto;
+}
+
+.third-num{
+    position: absolute;
+    top: -15px;
+    left: 50px;
     right: 0;
     margin: auto;
 }
 
 .dash-img{
     position: absolute;
-    top: 70px;
-    left: 0;
+    top: 0px;
+    left: 16px;
     right: 0;
     margin: auto;
 }
 
 .confetti{
     position: absolute;
-    right: -170px;
-    top: -190px;
+    right: -190px;
+    top: -295px;
     bottom: 0;
     margin: auto;
 }
